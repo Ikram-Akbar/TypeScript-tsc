@@ -14,6 +14,7 @@ bandScore:
             9 --> go to USA
 
 */
+//Normal : Function 
 function fly(bandScore) {
     let myDream;
     switch (bandScore) {
@@ -37,4 +38,4 @@ function fly(bandScore) {
     }
     return myDream;
 }
-console.log(fly(8));
+console.log(fly(5));
