@@ -17,7 +17,6 @@
     };
     const spreadObjet = Object.assign(Object.assign({}, programming_book), Political_book);
     console.log(spreadObjet);
-    
     const myBooks = {
         programming: programming_book,
         political: Political_book
