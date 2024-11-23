@@ -30,7 +30,8 @@
             console.log(animal.makeSound());
         }
     };
-    const cat = new Animal("Whiskers", "Cat");
-    const dog = new Animal("Zingu", "Dog");
-    calling(dog);
+    const cat = new Cat("Whiskers", "Cat");
+    const dog = new Dog("Shepard", "Dog");
+    calling(cat); // Output: Whiskers meows softly.
+    calling(dog); // Output: Zingu barks loudly.
 }
