@@ -27,6 +27,7 @@
     // Add users
     userRepository.addItem({ id: 1, name: "Alice", age: 25 });
     userRepository.addItem({ id: 2, name: "Bob", age: 30 });
+    userRepository.addItem({ id: 3, name: "Mark Toni", age: 55 });
     // Find a user by ID
     const user = userRepository.findById(1);
     console.log(user); // Output: { id: 1, name: "Alice", age: 25 }
